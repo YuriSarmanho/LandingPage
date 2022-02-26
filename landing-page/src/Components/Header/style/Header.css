@@ -1,4 +1,68 @@
-svg {
-  width: 2rem;
+.logo {
+  color: white;
+  font-weight: bold;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: white;
+  height: 100vh;
+  width: 50%;
+  z-index: 1;
+  -webkit-transform: uppercase;
+          transform: uppercase;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8em;
+}
+
+nav ul a {
+  color: black;
+  padding: 0.75em 2em;
+  display: block;
+}
+
+nav ul a:hover {
+  background-color: #ebebeb;
+}
+
+nav .close {
+  float: right;
+  margin: 2em;
+  width: 2.5em;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header svg {
+  width: 2.3em;
+  margin-top: -0.6em;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2em;
+  line-height: 3.3rem;
+}
+
+.subhead {
+  font-size: 1.4rem;
 }
 /*# sourceMappingURL=Header.css.map */
