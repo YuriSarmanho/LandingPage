@@ -1,0 +1,38 @@
+.more-info{
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 11em;
+    }
+    .title{
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
+    .desc{
+        line-height: 1.5rem;
+    }
+}
+.open-nav{
+    transform: translateX(0%);
+}
+
+@media only screen and(min-width:920px){
+    .feature{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        gap: 3em;
+        margin-bottom: 8em;
+
+        img{
+            width: 25em;
+        }
+        .content{
+            text-align: right;
+            width: 25em;
+        }
+    }   
+    .feature.left{
+        grip-template-areas:
+            ""
+    } 
+}

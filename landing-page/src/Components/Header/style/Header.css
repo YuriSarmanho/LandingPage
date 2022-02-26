@@ -65,4 +65,37 @@ h1 {
 .subhead {
   font-size: 1.4rem;
 }
+
+@media only screen and (min-width: 920px) {
+  .menu {
+    display: none;
+  }
+  nav {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    position: unset;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
+  }
+  svg.close {
+    display: none;
+  }
+  ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+  }
+  ul a {
+    color: white;
+    padding: .5em 1.5em;
+    font-size: .9rem;
+  }
+  ul a:hover {
+    background: none;
+    text-decoration: underline;
+  }
+}
 /*# sourceMappingURL=Header.css.map */

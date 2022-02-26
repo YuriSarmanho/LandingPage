@@ -1,0 +1,26 @@
+section.hero {
+  color: white;
+  height: 90vh;
+  // animation: 0;
+  // opacity: 0;
+  .down-arrow {
+    stroke: white;
+    position: absolute;
+    bottom: 8em;
+    width: 1em;
+    // animation: ease;
+    path {
+      fill: white;
+    }
+  }
+}
+
+@media only screen and(min-width:920px) {
+  .hero-img {
+    left: unset;
+     
+      right: 0;
+      width: 50%;
+    
+  }
+}

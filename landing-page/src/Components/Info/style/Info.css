@@ -18,4 +18,42 @@
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
 }
+
+@media only screen and (min-width: 920px) {
+  .feature {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    gap: 3em;
+    margin-bottom: 8em;
+  }
+  .feature img {
+    width: 25em;
+  }
+  .feature .content {
+    text-align: right;
+    width: 25em;
+  }
+  .feature.left {
+        grid-template-areas: "left right";
+  }
+  .feature.left img {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: left;
+  }
+  .feature.left .content {
+    text-align: left;
+    width: 25em;
+    -ms-grid-column-align: left;
+        justify-self: left;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .feature {
+    gap: 0;
+  }
+}
 /*# sourceMappingURL=Info.css.map */

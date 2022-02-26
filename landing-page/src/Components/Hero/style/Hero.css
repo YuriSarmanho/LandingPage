@@ -13,4 +13,35 @@ section.hero .down-arrow {
 section.hero .down-arrow path {
   fill: white;
 }
+
+@media only screen and (min-width: 920px) {
+  .hero-img {
+    left: unset;
+    right: 0;
+    width: 50%;
+    height: 42em;
+  }
+  .logo {
+    color: black;
+  }
+  .logo span {
+    color: red;
+  }
+  section.hero {
+    color: black;
+    height: auto;
+    width: 40%;
+    margin-bottom: 8em;
+  }
+  section.hero .subhead {
+    margin-bottom: 3em;
+  }
+  section.hero svg.down-arrow {
+    stroke: black;
+    position: unset;
+  }
+  section.hero svg.down-arrow path {
+    fill: black;
+  }
+}
 /*# sourceMappingURL=Hero.css.map */
