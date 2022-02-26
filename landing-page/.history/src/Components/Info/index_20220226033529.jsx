@@ -5,7 +5,7 @@ import Shoe3 from "../../images/shoe3.jpg";
 
 const Info = () => {
   return (
-    <section className='more-info'>
+    <section className=''>
       <div class="feature">
         <div class="content">
           <p class="title">Lightweight</p>

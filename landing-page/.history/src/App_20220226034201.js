@@ -7,7 +7,7 @@ import './style/app.css'
 const App = () => {
   return (
     <>
-      <img src={Shoe} className='hero-img'/>
+      <img src={shoe} className='hero-img'/>
       <div className="wrapper">
         <Header />
         <Hero />

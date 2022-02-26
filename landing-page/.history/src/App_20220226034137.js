@@ -1,13 +1,13 @@
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Info from "./Components/Info";
-import Shoe from './images/shoe.jpg'
+import Shoe from '../../'
 import './style/app.css'
 
 const App = () => {
   return (
     <>
-      <img src={Shoe} className='hero-img'/>
+      <img  className='hero-img'/>
       <div className="wrapper">
         <Header />
         <Hero />

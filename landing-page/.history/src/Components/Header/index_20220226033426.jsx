@@ -1,5 +1,6 @@
 import React from "react";
-import './style/Header.css'
+import Shoe from '../../images/shoe.jpg'
+import './style/index.css'
 
 const Header = () => {
   return (

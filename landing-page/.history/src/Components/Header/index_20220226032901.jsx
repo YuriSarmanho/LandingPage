@@ -1,9 +1,10 @@
 import React from "react";
-import './style/Header.css'
+import Shoe from '../../images'
+import './style/index.css'
 
 const Header = () => {
   return (
-  <header>
+  <>
     <a href="#" className="logo">Shoe<span>Brand</span></a>
 
     <nav>
@@ -15,12 +16,15 @@ const Header = () => {
           <li><a href="#">Sneakers</a></li>
           <li><a href="#">Players</a></li>
       </ul>
+      <svg class="menu" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z" fill="white"/>
+      </svg>
     </nav>
 
     <svg class="menu" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z" fill="white"/>
     </svg>
-  </header>
+  </>
   );
 };
 

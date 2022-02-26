@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <section className='hero'>
+    <section className='heor'>
       <h1>Regain your confidence on the court.</h1>
       <p class="subhead">A shoe built with purpose and to take your game to the next level.</p>
 
