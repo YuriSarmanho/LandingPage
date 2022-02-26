@@ -2,7 +2,7 @@ import React from "react";
 import Shoe1 from '../../images/shoe1.jpg';
 import Shoe2 from "../../images/shoe2.jpg";
 import Shoe3 from "../../images/shoe3.jpg";
-import './style/Info.css'
+import './style/'
 const Info = () => {
   return (
     <section className='more-info'>

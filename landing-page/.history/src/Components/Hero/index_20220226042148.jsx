@@ -1,5 +1,5 @@
 import React from 'react'
-import './style/Hero.css'
+import './7'
 function Hero() {
   return (
     <section className='hero'>

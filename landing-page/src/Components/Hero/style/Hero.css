@@ -1,0 +1,16 @@
+section.hero {
+  color: white;
+  height: 90vh;
+}
+
+section.hero .down-arrow {
+  stroke: white;
+  position: absolute;
+  bottom: 8em;
+  width: 1em;
+}
+
+section.hero .down-arrow path {
+  fill: white;
+}
+/*# sourceMappingURL=Hero.css.map */
